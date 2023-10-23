@@ -1,0 +1,49 @@
+.container{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #7851a9;
+    color: #d8bfd8;
+    font-size: 20px;
+}
+img{width: 50%;
+}
+.container{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    padding: 5rem;
+    background-color:#b768a2;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+.Job_title{
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.profile_name_first{
+    color: #d8bfd8;
+    font-weight: 200;
+    font-size: clamp(2rem, 2vw, 4rem);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: -0.8rem;
+}
+.profile_name_last{
+    color: var(--pri-color);
+    font-size: clamp(2.3rem, 14vw, 6rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+:root{
+   --pri-color: #800080;
+   --text-color: #d8bfd8;
+}
+    
+    
